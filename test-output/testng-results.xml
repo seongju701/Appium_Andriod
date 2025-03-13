@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T15:52:00 KST" name="Default suite" finished-at="2025-03-13T15:52:14 KST" duration-ms="13620">
+  <suite started-at="2025-03-13T16:28:17 KST" name="Default suite" finished-at="2025-03-13T16:29:41 KST" duration-ms="84491">
     <groups>
     </groups>
-    <test started-at="2025-03-13T15:52:00 KST" name="Default test" finished-at="2025-03-13T15:52:14 KST" duration-ms="13620">
-      <class name="edu.Appium.T001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:edu.Appium.T001@1b28f282]" started-at="2025-03-13T15:52:00 KST" name="setUp" finished-at="2025-03-13T15:52:10 KST" duration-ms="9360" status="PASS">
+    <test started-at="2025-03-13T16:28:17 KST" name="Default test" finished-at="2025-03-13T16:29:41 KST" duration-ms="84491">
+      <class name="appium.andriod.T001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:appium.andriod.T001@4da855dd]" started-at="2025-03-13T16:28:17 KST" name="setUp" finished-at="2025-03-13T16:28:27 KST" duration-ms="9811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAppLaunch()[pri:0, instance:edu.Appium.T001@1b28f282]" started-at="2025-03-13T15:52:10 KST" name="testAppLaunch" finished-at="2025-03-13T15:52:13 KST" duration-ms="3024" status="PASS">
+        <test-method signature="testAppLaunch()[pri:0, instance:appium.andriod.T001@4da855dd]" started-at="2025-03-13T16:28:27 KST" name="testAppLaunch" finished-at="2025-03-13T16:29:39 KST" duration-ms="72620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAppLaunch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:edu.Appium.T001@1b28f282]" started-at="2025-03-13T15:52:13 KST" name="tearDown" finished-at="2025-03-13T15:52:14 KST" duration-ms="1158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appium.andriod.T001@4da855dd]" started-at="2025-03-13T16:29:39 KST" name="tearDown" finished-at="2025-03-13T16:29:41 KST" duration-ms="1976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- edu.Appium.T001 -->
+      </class> <!-- appium.andriod.T001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
