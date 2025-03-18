@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">135,024</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">edu.Appium.T002</td><td><a href="#m0">속담의달인</a></td><td rowspan="1">1742271177384</td><td rowspan="1">21905</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">edu.Appium.Install</td><td><a href="#m1">앱사용권한체크</a></td><td rowspan="1">1742271077517</td><td rowspan="1">3532</td></tr><tr class="passedeven"><td><a href="#m2">학부모에게_요청하여_앱_사용하기</a></td><td rowspan="1">1742271081056</td><td rowspan="1">14635</td></tr><tr class="passedodd"><td rowspan="2">edu.Appium.T001</td><td><a href="#m3">비밀번호유효성체크</a></td><td rowspan="1">1742271107474</td><td rowspan="1">32461</td></tr><tr class="passedodd"><td><a href="#m4">학년별로그인</a></td><td rowspan="1">1742271152577</td><td rowspan="1">11763</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">edu.Appium.T002#속담의달인</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.TextView[@text=&quot;날씨&quot;]&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [eadc69a4-c7f4-463d-8ab1-3c35b1812410, getElementText {id=00000000-0000-1887-0000-017b00000029}]
+Capabilities {appium:appActivity: com.homelearn.essential.act..., appium:appPackage: com.homelearn.schoollearn, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.homelearn.essential.act..., appPackage: com.homelearn.schoollearn, automationName: UiAutomator2, deviceName: R9PT7000CKM, noReset: true, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-X200, appium:deviceName: R9PT7000CKM, appium:deviceScreenDensity: 240, appium:deviceScreenSize: 1920x1200, appium:deviceUDID: R9PT7000CKM, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.5, appium:platformVersion: 14, appium:statBarHeight: 36, appium:takesScreenshot: true, appium:viewportRect: {height: 1164, left: 0, top: 36, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (eadc69a4-c7f4-463d-8ab1-3c35b1812410)] -&gt; xpath: //android.widget.TextView[@text=&quot;날씨&quot;]]
+Session ID: eadc69a4-c7f4-463d-8ab1-3c35b1812410
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at edu.Appium.T002.속담의달인(T002.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">edu.Appium.Install#앱사용권한체크</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">edu.Appium.Install#학부모에게_요청하여_앱_사용하기</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">edu.Appium.T001#비밀번호유효성체크</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">edu.Appium.T001#학년별로그인</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
