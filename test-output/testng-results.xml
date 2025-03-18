@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-18T12:54:06 KST" name="Suite" finished-at="2025-03-18T12:56:20 KST" duration-ms="133637">
+    <groups>
+    </groups>
+    <test started-at="2025-03-18T12:54:06 KST" name="Test" finished-at="2025-03-18T12:56:20 KST" duration-ms="133637">
+      <class name="edu.Appium.T001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:54:39 KST" name="setUp" finished-at="2025-03-18T12:54:49 KST" duration-ms="10255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="비밀번호유효성체크()[pri:1, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:54:49 KST" name="비밀번호유효성체크" finished-at="2025-03-18T12:55:21 KST" duration-ms="32015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- 비밀번호유효성체크 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:55:21 KST" name="tearDown" finished-at="2025-03-18T12:55:23 KST" duration-ms="1836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:55:23 KST" name="setUp" finished-at="2025-03-18T12:55:33 KST" duration-ms="9701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="학년별로그인()[pri:2, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:55:33 KST" name="학년별로그인" finished-at="2025-03-18T12:55:44 KST" depends-on-methods="edu.Appium.T001.비밀번호유효성체크" duration-ms="11537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- 학년별로그인 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:edu.Appium.T001@1b11ef33]" started-at="2025-03-18T12:55:44 KST" name="tearDown" finished-at="2025-03-18T12:55:46 KST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- edu.Appium.T001 -->
+      <class name="edu.Appium.Install">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:edu.Appium.Install@1133ec6e]" started-at="2025-03-18T12:54:06 KST" name="setUp" finished-at="2025-03-18T12:54:19 KST" duration-ms="12842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="앱사용권한체크()[pri:1, instance:edu.Appium.Install@1133ec6e]" started-at="2025-03-18T12:54:19 KST" name="앱사용권한체크" finished-at="2025-03-18T12:54:23 KST" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- 앱사용권한체크 -->
+        <test-method signature="학부모에게_요청하여_앱_사용하기()[pri:2, instance:edu.Appium.Install@1133ec6e]" started-at="2025-03-18T12:54:23 KST" name="학부모에게_요청하여_앱_사용하기" finished-at="2025-03-18T12:54:37 KST" depends-on-methods="edu.Appium.Install.앱사용권한체크" duration-ms="14588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- 학부모에게_요청하여_앱_사용하기 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:edu.Appium.Install@1133ec6e]" started-at="2025-03-18T12:54:37 KST" name="tearDown" finished-at="2025-03-18T12:54:39 KST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- edu.Appium.Install -->
+      <class name="edu.Appium.T002">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:edu.Appium.T002@476aac9]" started-at="2025-03-18T12:55:46 KST" name="setUp" finished-at="2025-03-18T12:55:56 KST" duration-ms="9617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="속담의달인()[pri:1, instance:edu.Appium.T002@476aac9]" started-at="2025-03-18T12:55:56 KST" name="속담의달인" finished-at="2025-03-18T12:56:18 KST" duration-ms="22064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- 속담의달인 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:edu.Appium.T002@476aac9]" started-at="2025-03-18T12:56:18 KST" name="tearDown" finished-at="2025-03-18T12:56:20 KST" duration-ms="1848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- edu.Appium.T002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
