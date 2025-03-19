@@ -1,1 +1,8 @@
+edu\Appium\T1.class
+edu\Appium\T002.class
+edu\Appium\Install.class
+edu\Appium\utils\ScrollUtil.class
+edu\Appium\utils\LoginUtil.class
 edu\Appium\T001.class
+edu\Appium\T2.class
+edu\Appium\utils\Variable.class

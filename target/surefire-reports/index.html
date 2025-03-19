@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="edu.Appium.T002" class="method navigator-link" hash-for-method="속담의달인">속담의달인</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="edu.Appium.T001" class="method navigator-link" hash-for-method="학년별로그인">학년별로그인</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,12 +122,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="edu.Appium.Install" class="method navigator-link" hash-for-method="앱사용권한체크">앱사용권한체크</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="edu.Appium.T002" class="method navigator-link" hash-for-method="속담의달인">속담의달인</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="edu.Appium.T001" class="method navigator-link" hash-for-method="학년별로그인">학년별로그인</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="edu.Appium.Install" class="method navigator-link" hash-for-method="앱사용권한체크">앱사용권한체크</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -150,32 +150,33 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">edu.Appium.T002</span>
+              <span class="class-name">edu.Appium.T001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="속담의달인">
-                  </a> <!-- 속담의달인 -->
-                  <span class="method-name">속담의달인</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: //android.widget.TextView[@text=&quot;날씨&quot;]&apos; does not exist in DOM anymore
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+                  <a name="학년별로그인">
+                  </a> <!-- 학년별로그인 -->
+                  <span class="method-name">학년별로그인</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [eadc69a4-c7f4-463d-8ab1-3c35b1812410, getElementText {id=00000000-0000-1887-0000-017b00000029}]
+Command: [f3e0808a-a7ad-4b47-af9d-1ac32b03060e, findElement {value=new UiSelector().className(&quot;android.widget.EditText&quot;).instance(0), using=-android uiautomator}]
 Capabilities {appium:appActivity: com.homelearn.essential.act..., appium:appPackage: com.homelearn.schoollearn, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.homelearn.essential.act..., appPackage: com.homelearn.schoollearn, automationName: UiAutomator2, deviceName: R9PT7000CKM, noReset: true, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-X200, appium:deviceName: R9PT7000CKM, appium:deviceScreenDensity: 240, appium:deviceScreenSize: 1920x1200, appium:deviceUDID: R9PT7000CKM, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 1.5, appium:platformVersion: 14, appium:statBarHeight: 36, appium:takesScreenshot: true, appium:viewportRect: {height: 1164, left: 0, top: 36, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Element: [[AndroidDriver:  on ANDROID (eadc69a4-c7f4-463d-8ab1-3c35b1812410)] -&gt; xpath: //android.widget.TextView[@text=&quot;날씨&quot;]]
-Session ID: eadc69a4-c7f4-463d-8ab1-3c35b1812410
+Session ID: f3e0808a-a7ad-4b47-af9d-1ac32b03060e
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-	at edu.Appium.T002.속담의달인(T002.java:71)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at edu.Appium.T001.학년별로그인(T001.java:78)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -196,11 +197,19 @@ Session ID: eadc69a4-c7f4-463d-8ab1-3c35b1812410
                   <span class="method-name">비밀번호유효성체크</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">edu.Appium.T002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="학년별로그인">
-                  </a> <!-- 학년별로그인 -->
-                  <span class="method-name">학년별로그인</span>
+                  <a name="속담의달인">
+                  </a> <!-- 속담의달인 -->
+                  <span class="method-name">속담의달인</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,6 +246,9 @@ Session ID: eadc69a4-c7f4-463d-8ab1-3c35b1812410
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;edu.Appium.Install&quot;/&gt;
@@ -285,23 +297,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, '비밀번호유효성체크')
 data.setCell(0, 2, 'edu.Appium.T001')
-data.setCell(0, 3, 32461);
+data.setCell(0, 3, 35619);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, '속담의달인')
 data.setCell(1, 2, 'edu.Appium.T002')
-data.setCell(1, 3, 21905);
+data.setCell(1, 3, 31285);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, '학부모에게_요청하여_앱_사용하기')
 data.setCell(2, 2, 'edu.Appium.Install')
-data.setCell(2, 3, 14635);
+data.setCell(2, 3, 14446);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, '학년별로그인')
 data.setCell(3, 2, 'edu.Appium.T001')
-data.setCell(3, 3, 11763);
+data.setCell(3, 3, 10060);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, '앱사용권한체크')
 data.setCell(4, 2, 'edu.Appium.Install')
-data.setCell(4, 3, 3532);
+data.setCell(4, 3, 3662);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -339,59 +351,59 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">앱사용권한체크</span>
-                <span class="method-start">10343 ms</span>
+                <span class="method-start">16835 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">학부모에게_요청하여_앱_사용하기</span>
-                <span class="method-start">13882 ms</span>
+                <span class="method-start">20615 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28520 ms</span>
+                <span class="method-start">35066 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">edu.Appium.T001</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">30305 ms</span>
+                <span class="method-start">37267 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">비밀번호유효성체크</span>
-                <span class="method-start">40300 ms</span>
+                <span class="method-start">47837 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">72762 ms</span>
+                <span class="method-start">83459 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">74668 ms</span>
+                <span class="method-start">85455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">학년별로그인</span>
-                <span class="method-start">85403 ms</span>
+                <span class="method-start">96140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97168 ms</span>
+                <span class="method-start">106214 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">edu.Appium.T002</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">99202 ms</span>
+                <span class="method-start">108196 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">속담의달인</span>
-                <span class="method-start">110210 ms</span>
+                <span class="method-start">118740 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">132122 ms</span>
+                <span class="method-start">150027 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

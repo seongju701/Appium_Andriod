@@ -1,0 +1,1 @@
+{"uuid":"9c7b3219-7ced-4bb7-8650-69dbc0a8a68f","name":"edu.Appium.T001.setUp","children":["f612d4d9-d102-4d19-981e-f8c3f6530a59"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742289889972,"stop":1742289900655}],"afters":[],"start":1742289889972,"stop":1742289900655}

@@ -1,0 +1,1 @@
+{"uuid":"08cb6b93-cfe2-4690-9029-ad946e35f5ad","name":"edu.Appium.T001.tearDown","children":["cc586256-314b-41e8-8766-ded85f8d7e52"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742289887975,"stop":1742289889968}],"start":1742289887975,"stop":1742289889968}
