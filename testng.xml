@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
@@ -6,6 +7,11 @@
     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
   </listeners>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+>>>>>>> 592a6d459237746c1642f5738be50fb60ce3567f
   <test thread-count="5" name="Test">
     <classes>
       <class name="edu.Appium.Install"/>
@@ -13,5 +19,8 @@
       <class name="edu.Appium.T002"/>   
     </classes>
   </test> <!-- Test -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> 592a6d459237746c1642f5738be50fb60ce3567f
 </suite> <!-- Suite -->
