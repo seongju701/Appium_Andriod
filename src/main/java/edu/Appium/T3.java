@@ -21,7 +21,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class T2 {
+public class T3 {
     private AndroidDriver driver;
     Variable var = new Variable();
     WebDriverWait wait;
@@ -41,8 +41,8 @@ public class T2 {
     }
 
     @Test(priority = 1)
-    public void 속담의달인() throws InterruptedException {
-        	//속담의 달인 접속
+    public void 내공상자() throws InterruptedException {
+        	//내공상자 접속
         try {
             driver.findElement(AppiumBy.xpath("//android.widget.Button[@text=\"오늘의 학습\"]"));
             System.out.println("로그인 완료");
@@ -52,24 +52,21 @@ public class T2 {
             LoginUtil.login(driver, var.ID_1, var.PW_1);
         	driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"로그인\")")).click(); // 로그인 버튼 클릭
         }
-        	WebElement text1 = driver.findElement(By.xpath("//android.view.View[@text=\"속담의 달인\"]"));
-        	Assert.assertEquals("속담의 달인", text1.getText() );
-        	text1.click();
-        	
-        	WebElement text2 = driver.findElement(By.xpath("//android.widget.Image[@text=\"재미있는 영상으로 속담을 배우고, 간단한 활동으로 배운 내용을 정리해 보세요.\"]"));
-        	Assert.assertEquals("재미있는 영상으로 속담을 배우고, 간단한 활동으로 배운 내용을 정리해 보세요.", text2.getText() );
-        	driver.findElement(By.xpath("(//android.widget.Button[@text=\"닫기\"])[2]")).click();        	
-        	
-        	WebElement text3 = driver.findElement(By.xpath("//android.widget.TextView[@text=\"날씨\"]"));
-        	Assert.assertEquals("날씨", text3.getText() );
-        	Thread.sleep(3000);
-        	driver.findElement(By.xpath("//android.view.View[@resource-id=\"root\"]/android.view.View/android.view.View[3]/android.view.View/android.view.View[2]/android.widget.ListView/android.view.View[1]/android.view.View[1]/android.view.View")).click();
-        	//Thread.sleep(3000);
-        	
-        	WebElement text4 = driver.findElement(By.xpath("//android.widget.TextView[@text=\"날씨\"]"));
-        	Assert.assertEquals("날씨", text4.getText() );
-        	driver.findElement(By.xpath("//android.view.View[@resource-id=\"root\"]/android.view.View/android.view.View[1]/android.view.View/android.view.View[1]/android.widget.Button")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"학교공부\")")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"핵심전과\")")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"com.homelearn.schoollearn:id/dicessence_mybox_img\").instance(0)")).click();
+        driver.findElement(AppiumBy.id("com.homelearn.schoollearn:id/btnYes")).click();
+        driver.findElement(AppiumBy.id("com.homelearn.schoollearn:id/btnConfirm")).click();
+        driver.findElement(AppiumBy.id("com.homelearn.schoollearn:id/btnExit")).click();
+        driver.findElement(AppiumBy.id("com.homelearn.schoollearn:id/btnYes")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.Button\").instance(2)")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"/ability_study\")")).click();
+        WebElement a = driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"1장 자음자와 모음자 찾기\")"));
         
+        System.out.println(a);
+        Assert.assertEquals("1장 자음자와 모음자 찾기", a.getText());
+        
+
     }
 
     @AfterMethod
